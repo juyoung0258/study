@@ -1,0 +1,26 @@
+div {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 40px;
+}
+
+.bg-tr {
+    background-color: burlywood;
+    transition: all ease 1s;
+}
+
+.bg-tr:hover {
+    background-color: rosybrown;
+}
+
+.border-tr {
+    background-color: blanchedalmond;
+    border: 3px solid #000;
+    transition: all linear 1s;
+}
+
+.border-tr:hover {
+    border: 3px solid red;
+    border-radius: 50%;
+}

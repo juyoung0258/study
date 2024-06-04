@@ -1,0 +1,33 @@
+.contents {
+    width: 300px;
+}
+
+.contents :nth-child(2) {
+    background-color: pink;
+}
+
+.hot::after {
+    content: "HOT";
+    font-size: 10px;
+    padding: 2px 4px;
+    margin: 0 10px;
+    border-radius: 2px;
+    background-color: #f00;
+    color: #fff;
+}
+
+.container {
+    position: relative;
+}
+
+.icon::before {
+    /* 이미지를 넣을땐 content:""; 꼭 명시 */
+    content: "";
+    background: url("../images/해린.jpg") center no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

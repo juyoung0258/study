@@ -1,0 +1,20 @@
+* {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.gradient {
+    background: burlywood;
+    /* 왼쪽 위에서 오른쪽 아래 방향으로 파랑에서 흰색으로 */
+    background: linear-gradient(to right bottom, burlywood, brown);
+}
+
+.gradient-1 {
+    background: linear-gradient(45deg, white, pink);
+}
+
+.gradient-2 {
+    background: linear-gradient(45deg, black, gray 40%, white);
+}
+
